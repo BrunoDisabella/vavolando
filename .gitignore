@@ -1,0 +1,24 @@
+# Dependencias de Node y salidas de Vite
+node_modules/
+.parcel-cache/
+dist/
+
+# Variables de entorno
+.env
+.env.local
+.env.*.local
+
+# Archivos de sistema
+*.DS_Store
+*.log
+
+# Salidas de la herramienta de desarrollo
+coverage/
+.turbo/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Configuración de sistema operativo
+.idea/
+.vscode/
